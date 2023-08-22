@@ -3,28 +3,30 @@
 </script>
 
 <template>
+<div>
+
    <header class="header">
       <div class="header-left">
         <h2>
-          <router-link to="/">🐢亀フェスポータルサイト</router-link>
+          <router-link class="router-link" to="/">🐢亀フェスポータルサイト</router-link>
         </h2>
       </div><!-- /.header-left -->
       <div class="header-right">
-        <div class="hader-right-menu">
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
-        <div class="hader-right-menu">
+        </div><!-- /.header-right-menu -->
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
-        <div class="hader-right-menu">
+        </div><!-- /.header-right-menu -->
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
-        <div class="hader-right-menu">
+        </div><!-- /.header-right-menu -->
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
-        <div class="hader-right-menu">
+        </div><!-- /.header-right-menu -->
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
+        </div><!-- /.header-right-menu -->
       </div><!-- /.header-right -->
     </header>
     <div class="band">
@@ -68,6 +70,7 @@
             </a><!-- /.score-menu-item -->
         </div><!-- /.band-menu -->
       </div><!-- /.band-->
+</div>
 </template>
 
 

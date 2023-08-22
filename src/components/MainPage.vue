@@ -2,35 +2,36 @@
 </script>
 
 <template>
+<div>
+
     <header class="header">
       <div class="header-left">
         <h2>
-          <router-link to="/">🐢亀フェスポータルサイト</router-link>
+          <router-link class="router-link" to="/">🐢亀フェスポータルサイト</router-link>
         </h2>
       </div><!-- /.header-left -->
       <div class="header-right">
-        <div class="hader-right-menu">
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
-        <div class="hader-right-menu">
+        </div><!-- /.header-right-menu -->
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
-        <div class="hader-right-menu">
+        </div><!-- /.header-right-menu -->
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
-        <div class="hader-right-menu">
+        </div><!-- /.header-right-menu -->
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
-        <div class="hader-right-menu">
+        </div><!-- /.header-right-menu -->
+        <div class="header-right-menu">
           <a href="#" class="header-right-menu-item">🐢menu1</a>
-        </div><!-- /.hader-right-menu -->
+        </div><!-- /.header-right-menu -->
       </div><!-- /.header-right -->
     </header>
     <section class="main">
       <div class="top">
-        <div class="top-image">
-          <img src="../assets/MicrosoftTeams-image (5).png" alt="">
-        </div><!-- /.top-image -->
+        <div class="relative">
+          
         <div class="score">
           <h2 class="main-title">Score</h2><!-- /.main-title -->
           <div class="score-menu">
@@ -38,42 +39,65 @@
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
             </router-link><!-- /.score-menu-item -->
-            <a href="./Band.vue" class="score-menu-item">
+            <router-link to="/band" class="score-menu-item">
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
-            </a><!-- /.score-menu-item -->
-            <a href="./Band.vue" class="score-menu-item">
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
-            </a><!-- /.score-menu-item -->
-            <a href="./Band.vue" class="score-menu-item">
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
-            </a><!-- /.score-menu-item -->
-            <a href="./Band.vue" class="score-menu-item">
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
-            </a><!-- /.score-menu-item -->
-            <a href="./Band.vue" class="score-menu-item">
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
-            </a><!-- /.score-menu-item -->
-            <a href="./Band.vue" class="score-menu-item">
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
-            </a><!-- /.score-menu-item -->
-            <a href="./Band.vue" class="score-menu-item">
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
-            </a><!-- /.score-menu-item -->
-            <a href="./Band.vue" class="score-menu-item">
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
               <img src="../assets/imageshaiiro.jpg" alt="">
               <h3>band</h3>
-            </a><!-- /.score-menu-item -->
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
+              <img src="../assets/imageshaiiro.jpg" alt="">
+              <h3>band</h3>
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
+              <img src="../assets/imageshaiiro.jpg" alt="">
+              <h3>band</h3>
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
+              <img src="../assets/imageshaiiro.jpg" alt="">
+              <h3>band</h3>
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
+              <img src="../assets/imageshaiiro.jpg" alt="">
+              <h3>band</h3>
+            </router-link><!-- /.score-menu-item -->
+            <router-link to="/band" class="score-menu-item">
+              <img src="../assets/imageshaiiro.jpg" alt="">
+              <h3>band</h3>
+            </router-link><!-- /.score-menu-item -->
           </div><!-- /.score-menu -->
         </div><!-- /.score -->
+        <div class="top-image">
+          <img src="../assets/MicrosoftTeams-image (5).png" alt="">
+        </div><!-- /.top-image -->
+        </div><!-- /.relative -->
       </div><!-- /.top -->
-      <div class="top">
       <div class="news">
         <div class="news-item">
           <ul>
@@ -143,10 +167,6 @@
           </ul>
         </div><!-- /.news-item -->
       </div><!-- /.news -->
-      <div class="top-image2">
-        <img src="../assets/MicrosoftTeams-image (6).png" alt="">
-      </div><!-- /.top-image -->
-    </div><!-- /.top -->
     <div class="form">
       <form id="contact">
         <div class="container">
@@ -164,6 +184,10 @@
       </form>
       </div><!-- /.form -->
     </section><!-- /.main -->
+    <footer class="footer">
+
+    </footer>
+</div>
 </template>
 
 
